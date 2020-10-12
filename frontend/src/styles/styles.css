@@ -58,3 +58,17 @@ h4 {
 .form-register .l{
     font-size: 13px;
 }
+
+.container{
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  display: block;
+}
+.form-control{
+  text-align: center;
+  justify-content: center;
+  
+}
