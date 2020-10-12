@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Inicio from './pages/Inicio';
 import Login from './components/Login'
+import Signin from './components/Signin';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +13,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 ReactDOM.render(
   <React.StrictMode>
   <Login />
+  <Signin />
   </React.StrictMode>,
   document.getElementById('root')
 );
