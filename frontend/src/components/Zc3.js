@@ -9,7 +9,7 @@ class Zc3 extends React.Component{
         
         <ul>
           
-        <li className="Zp">- Piscina en el patio <i class="icon-thumbs-down-alt"> </i></li>
+        <li className="Zp">- Piscina en el patio v: <i class="icon-thumbs-down-alt"> </i></li>
         
         <br/>
         <li className="Zp">- Clases presenciales</li>
