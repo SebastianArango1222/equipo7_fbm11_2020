@@ -7,13 +7,17 @@ class Header extends Component {
 
                 <h5 className="my-0 mr-md-auto font-weight-normal">Voz de la elección al gobierno escolar</h5>
                 <nav className="as">
-                    <a className="p-2 text-dark" href="nose.js">Propuestas</a>
-                    <a className="p-2 text-dark" href="#">Quiénes somos</a>
-                    <a className="p-2 text-dark" href="#">Acerca de</a>
 
+
+                    <a className="hed" href="/">Inicio</a>
+                    <a className="hed" href="Elegir">Candidatos</a>
+                    <a className="hed" href="#">Quiénes somos</a>
+                    <a className="hed" href="Acercade">Acerca de</a>
+                    
+            
               
                 </nav>
-                <a className="btn btn-outline-primary" href="#">Iniciar Sesión</a>
+                <a className="btn btn-outline-primary" href="Login">Iniciar Sesión</a>
             </div>
         )
     }

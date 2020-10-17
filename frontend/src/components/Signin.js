@@ -10,15 +10,15 @@ class Login extends Component {
       <div className="container align-items-center mt-5 text-center">
         <div className="container">
         <form className="form-signin text-center align-items-center col-6">
-          <h1 className="h3 mb-5 font-weight-normal text-center text-primary">Registro</h1>
-          <input type="text" id="Nombre" className="form-control mb-3" placeholder="Ingrese su nombre completo" required="" autofocus="" />
-          <label for="inputEmail" className="sr-only mb-3">Ingrese su email</label>
-          <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Ingrese su email" required="" autofocus="" />
-          <label for="inputPassword" className="sr-only">Ingrese su contraseña</label>
-          <input type="password" id="inputPassword" className="form-control mb-3 " placeholder="Ingrese su contraseña" required="" />
-          <div className="checkbox mb-3">
+          <h1 className="h1a">Registro</h1>
+          <input type="text" id="Nombre" className="bt" placeholder="Ingrese su nombre completo" required="" autofocus="" />
+        
+          <input type="email" id="inputEmail" className="bt" placeholder="Ingrese su email" required="" autofocus="" />
+         
+          <input type="password" id="inputPassword" className="bt2 " placeholder="Ingrese su contraseña" required="" />
+          <div className="boton3">
           </div>
-          <button className="btn btn-lg btn-primary btn-flex mb-3 col-6 text-decoration-none" type="submit">Registrarse</button>
+          <button className="boton3" type="submit">Registrarse</button>
         </form>
         </div>
       </div>

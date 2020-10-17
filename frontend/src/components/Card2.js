@@ -1,5 +1,5 @@
 import React from 'react';
-
+import awa from '../Images/awa.png'
 class Card2 extends React.Component{
     render(){
         return(
@@ -12,12 +12,12 @@ class Card2 extends React.Component{
         
         <ul className="list-unstyled mt-3 mb-4">
          
-          <img src="../components/Images/awa.jpg"/>
+          <img className ="Silueta"src= {awa}/>
           
           
           
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-outline-primary">Observar propuestas</button>
+        <a className="p-2 text-dark" href="C1">Observar propuestas</a>     
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -27,9 +27,9 @@ class Card2 extends React.Component{
       <div className="card-body">
         
         <ul className="list-unstyled mt-3 mb-4">
-        <img src="../components/Images/awa.jpg"/>
+        <img className ="Silueta"src= {awa}/>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary">Observar propuestas</button>
+        <a className="p-2 text-dark" href="C2">Observar propuestas</a>     
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -39,10 +39,9 @@ class Card2 extends React.Component{
       <div className="card-body">
        
         <ul className="list-unstyled mt-3 mb-4">
-        <img src="../components/Images/awa.jpg"/>
+        <img className ="Silueta"src= {awa}/>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary">Observar propuestas</button>
-        
+        <a className="p-2 text-dark" href="C3">Observar propuestas</a>             
       </div>
     </div>
   </div>

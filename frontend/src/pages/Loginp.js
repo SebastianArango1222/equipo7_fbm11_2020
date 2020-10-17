@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Acercade from '../components/Acercade';
+import Login from '../components/Login'
 import Header from '../components/Header'
-export default function Acerca (){
+export default function Loginp (){
     return(
         <>
-        <Header/>
-        <Acercade/>
+       <Header/>
+        <Login/>
         </>
     )
 }

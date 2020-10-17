@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header'
-class Zc1 extends React.Component{
+class Candidatos extends React.Component{
     render(){
        return(
        
@@ -18,11 +18,10 @@ class Zc1 extends React.Component{
 
         </ul>
         
-        
       </main>
     
        )
     }
     
 }
-export default Zc1;
+export default Candidatos;

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Inicio from './pages/Inicio';
 
 import Paginaprincipal from './pages/Paginaprincipal';
+import Acerca from './pages/Acerca'
 import App from './routes/App';
 
 
@@ -16,9 +17,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
+    
+      <App/> 
 
-   {/* <App/>  */}
-    <Paginaprincipal />
+   
     
 
   </React.StrictMode>,
