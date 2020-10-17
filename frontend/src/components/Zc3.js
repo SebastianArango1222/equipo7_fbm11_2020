@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header'
+import Atras from '../Images/Atras.png'
 class Zc3 extends React.Component{
     render(){
        return(
@@ -15,7 +16,10 @@ class Zc3 extends React.Component{
         <li className="Zp">- Clases presenciales</li>
         <br/>
         <li className="Zp">- No se que poner</li>
-
+        <br/>
+       
+       
+       <a  className="linkec"href="CandidatosP"  ><img className ="as"src= {Atras}/></a>
         </ul>
         
       </main>
