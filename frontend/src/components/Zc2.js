@@ -21,7 +21,7 @@ class Zc2 extends React.Component{
         <br/>
        
        
-       <a  className="linkec"href="CandidatosP"  ><img className ="as"src= {Atras}/></a>
+       <a  className="linkec"href="CandidatosC"  ><img className ="as"src= {Atras}/></a>
       </main>
     
        )
