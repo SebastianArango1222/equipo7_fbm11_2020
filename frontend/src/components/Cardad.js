@@ -17,7 +17,7 @@ class Card extends React.Component{
           
           
         </ul>
-        <a className="p-2 text-dark" href="P1">Observar propuestas</a>     
+        <a className="p-2 text-dark" href="P1ad">Observar/agregar propuestas</a>     
          </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -29,7 +29,7 @@ class Card extends React.Component{
         <ul className="list-unstyled mt-3 mb-4">
         <img className ="Silueta"src= {awa}/>
         </ul>
-        <a className="p-2 text-dark" href="P2">Observar propuestas</a>
+        <a className="p-2 text-dark" href="P2ad">Observar/agregar propuestas</a>
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -40,15 +40,12 @@ class Card extends React.Component{
        
         <ul className="list-unstyled mt-3 mb-4">
         <img className ="Silueta"src= {awa}/>
-        
         </ul>
         
-        <a className="p-2 text-dark" href="P3">Observar propuestas</a>
+        <a className="p-2 text-dark" href="P3ad">Observar/agregar propuestas</a>
         
-        
-       
       </div>
-      <a  className="linkec"href="Elegir"  ><img className ="as"src= {Atras}/></a>
+      <a  className="linkec"href="Epad"  ><img className ="as"src= {Atras}/></a>
     </div>
   </div>
         )

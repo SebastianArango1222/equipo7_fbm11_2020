@@ -13,13 +13,13 @@ class Login extends Component {
           <h1 className="boton2">Inicie Sesión</h1>
         
           <input type="email" id="inputEmail" className="botonn" placeholder="Ingrese su email" required="" autofocus="" />
-          <label for="inputPassword" className="sr-only">Ingrese su contraseña</label>
-          <input type="password" id="inputPassword" className="botonn " placeholder="Ingrese su contraseña" required="" />
+          <label for="inputPassword" className="sr-only">a</label>
+          <input type="password" id="inputPassword" className="botonn " placeholder="Ingrese su código" required="" />
           <div className="checkbox mb-3">
           </div>
           <button className="boton3" type="submit">Iniciar Sesión</button>
           <button  className="boton3" type="submit">Registrarse</button>
-          <a className="adm" href="loginad">Ingresa como administrador</a>
+      
         </form>
         </div>
       </div>

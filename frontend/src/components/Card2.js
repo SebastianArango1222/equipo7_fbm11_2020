@@ -1,5 +1,6 @@
 import React from 'react';
 import awa from '../Images/awa.png'
+import Atras from '../Images/Atras.png'
 class Card2 extends React.Component{
     render(){
         return(
@@ -41,8 +42,10 @@ class Card2 extends React.Component{
         <ul className="list-unstyled mt-3 mb-4">
         <img className ="Silueta"src= {awa}/>
         </ul>
-        <a className="p-2 text-dark" href="C3">Observar propuestas</a>             
+        <a className="p-2 text-dark" href="C3">Observar propuestas</a>   
+               
       </div>
+      <a  className="linkec"href="Elegir"  ><img className ="as"src= {Atras}/></a>
     </div>
   </div>
         )

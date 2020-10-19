@@ -101,6 +101,7 @@ h4 {
 .h1a{
   font-size: arial;
   font-size: 40px;
+  
 }
 .botonn{
   width: 240px;
@@ -130,9 +131,10 @@ h4 {
   border-radius: 40px;
 }
 .bt{
-  width: 240px;
+  width: 260px;
   height: 32px ;
   border-color: chartreuse;
+  
 }
 .bt2{
   height: 32px;
@@ -146,9 +148,30 @@ h4 {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   
+  
 }
 .as{
 
   height: 40px;
   
+}
+.adm{
+ font-size: 20px;
+  padding: 0px;
+
+}
+
+.mas{
+  height: 22px;
+}
+.botonsubmit{
+  text-align: right;
+  
+}
+.botonsin{
+  text-align: right;
+  
+}
+.dislike{
+ height: 32px;
 }
