@@ -17,8 +17,8 @@ class Login extends Component {
           <input type="password" id="inputPassword" className="botonn " placeholder="Ingrese su código" required="" />
           <div className="checkbox mb-3">
           </div>
-          <button className="boton3" type="submit">Iniciar Sesión</button>
-          <button  className="boton3" type="submit">Registrarse</button>
+          <button className="boton3" type="submit"><a href = "inicio">Iniciar Sesión</a></button>
+          <button  className="boton3" type="submit"><a href ="signad">Registrarse</a></button>
       
         </form>
         </div>
