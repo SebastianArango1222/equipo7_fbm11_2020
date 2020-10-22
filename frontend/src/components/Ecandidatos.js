@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+
 import Personeria from '../Images/Personeria.jpg'
 import Contraloria from '../Images/Contraloria.jpg'
 const Pp = () => {

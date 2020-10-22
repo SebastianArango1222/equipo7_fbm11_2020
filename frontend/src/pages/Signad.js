@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Logina from '../components/Loginad'
+import Signin from '../components/Signinad'
 import Header from '../components/HeaderAd'
-export default function Loginad (){
+export default function Sign (){
     return(
         <>
        <Header/>
-        <Logina/>
+        <Signin/>
         </>
     )
 }

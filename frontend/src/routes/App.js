@@ -15,6 +15,7 @@ import C1ad from '../pages/Propuestas/C1ad'
 import C2ad from '../pages/Propuestas/C2ad'
 import C3ad from '../pages/Propuestas/C3ad'
 import Acerca from '../pages/Acerca'
+import Acercaad from '../pages/Acercaad'
 import CandidatosP from '../pages/CandidatosP'
 import CandidatosC from '../pages/CandidatosC'
 import CandidatosPad from '../pages/CandidatosPad'
@@ -23,8 +24,11 @@ import CandidatosCad from '../pages/CandidatosCad'
 import ElegirC from '../pages/ElegirC'
 import Login from '../pages/Loginp'
 import Sign from '../pages/Sign'
+import Signad from '../pages/Signad'
 import Loginad from '../pages/Loginad'
 import Epad from '../pages/Epad'
+import Quienesomos from '../pages/Quienesomos'
+import Quienesomosad from '../pages/Quienesomosad'
 
 const App = () => {
     return (
@@ -40,6 +44,7 @@ const App = () => {
                 <Route  path="/P2ad" component = {P2ad} />
                 <Route  path="/P3ad" component = {P3ad} />
                 <Route  path="/Acercade" component = {Acerca} />
+                <Route  path="/Acercadead" component = {Acercaad} />
                 <Route  path="/CandidatosP" component = {CandidatosP} />
                 <Route  path="/CandidatosCad" component = {CandidatosCad} />
                 <Route  path="/CandidatosPad" component = {CandidatosPad} />
@@ -54,10 +59,11 @@ const App = () => {
                 <Route  path="/Elegir" component = {ElegirC} />
                 <Route  path="/Login" component = {Login} />
                 <Route  path="/Sign" component = {Sign} />
+                <Route  path="/Signad" component = {Signad} />
                 <Route  path="/loginad" component = {Loginad} />
                 <Route  path="/Epad" component = {Epad} />
-
-               
+                <Route  path="/Quienessomos" component = {Quienesomos} />
+                <Route  path="/Quienessomosad" component = {Quienesomosad} />
             </Switch>
 
         </BrowserRouter>

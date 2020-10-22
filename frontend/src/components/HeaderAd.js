@@ -11,8 +11,8 @@ class Header extends Component {
 
                     <a className="hed" href="inicio">Inicio</a>
                     <a className="hed" href="epad">Propuestas</a>
-                    <a className="hed" href="#">Quiénes somos</a>
-                    <a className="hed" href="Acercade">Acerca de</a>
+                    <a className="hed" href="Quienessomosad">Quiénes somos</a>
+                    <a className="hed" href="Acercadead">Acerca de</a>
                     
             
               
