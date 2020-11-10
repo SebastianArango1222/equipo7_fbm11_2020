@@ -3,7 +3,7 @@ const router= express.Router();
 const mysqlConnection=require('../db/db');
 
 router.get('/',(req,res)=>{
-mysqlConnection.query('SELECT * FROM Propuestas',(err,rows,fiels)=>{
+mysqlConnection.query('SELECT * FROM Valoracion ',(err,rows,fiels)=>{
 
     if(!err){
 
@@ -13,5 +13,4 @@ mysqlConnection.query('SELECT * FROM Propuestas',(err,rows,fiels)=>{
     }
 })
 })
-
 module.exports=router;
