@@ -61,7 +61,7 @@ h4 {
 
 
 .awa{
-  color: blue;
+  color: #009a00;
   text-align: center;
 }
 .Lea{
@@ -271,4 +271,30 @@ header label:hover{
 .Silueta2{
   width: 200px;
   height: 200px;
+}
+.p-3 {
+  padding: 1rem!important;
+  background-color: #009a00;
+}
+.my-0{
+  color: white;
+}
+.hed{
+  color: white;
+}
+.btn.btn-outline-primary{
+padding: 6px 12px;
+border-color: orange;
+color: white;
+
+}
+.cover-heading{
+  color: #009a00;
+}
+.my-0{
+  color: black;
+}
+h5.my-0.mr-md-auto.font-weight-normal{
+  color: white;
+  font-size: 18px;
 }

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Acercade extends Component {
     render() {
         return (
-            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <div class="cover-container d-flex w-100 h-100  mx-auto flex-column">
            
           
             <main role="main" class="inner cover">
