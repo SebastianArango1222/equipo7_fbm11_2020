@@ -9,7 +9,7 @@ class Login extends Component {
     return (
       <div className="container align-items-center mt-5 text-center">
         <div className="container">
-        <form className="form-signin text-center align-items-center col-6">
+        <form className="a">
           <h1 className="h1a">Registro Candidato</h1>
           <a  className="linkec"href="loginad"  ><img className ="as"src= {Atras}/></a>
           <input type="text" id="Nombre" className="bt" placeholder="Ingrese su nombre completo" required="" autofocus="" />
