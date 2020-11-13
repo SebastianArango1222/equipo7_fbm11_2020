@@ -4,6 +4,8 @@ import Atras from '../Images/Atras.png'
 class Card extends React.Component{
     render(){
         return(
+          <main role="main" className="body">
+               <a  className="linkec"href="Epad"  ><img className ="as"src= {Atras}/></a>
             <div className="card-deck mb-3 text-center">
     <div className="card mb-4 shadow-sm">
       <div className="card-header">
@@ -45,9 +47,10 @@ class Card extends React.Component{
         <a className="p-2 text-dark" href="P3ad">Observar/agregar propuestas</a>
         
       </div>
-      <a  className="linkec"href="Epad"  ><img className ="as"src= {Atras}/></a>
+   
     </div>
   </div>
+  </main>
         )
     }
 }

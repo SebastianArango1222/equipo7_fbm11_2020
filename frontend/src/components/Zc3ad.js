@@ -7,6 +7,7 @@ class Zc3 extends React.Component{
        return(
        
         <main role="main" className="inner cover">
+            <a  className="linkec"href="CandidatosCad"  ><img className ="as"src= {Atras}/></a>
         <h1  className="awa">Propuestas de Sofia Henao:</h1>
         
         <ul>
@@ -16,7 +17,7 @@ class Zc3 extends React.Component{
 
     
         </ul>
-           <a  className="linkec"href="CandidatosCad"  ><img className ="as"src= {Atras}/></a>
+          
       </main>
     
        )

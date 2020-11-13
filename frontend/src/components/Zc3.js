@@ -9,7 +9,7 @@ class Zc3 extends React.Component{
        
         <main role="main" className="inner cover">
         <h1  className="awa">Propuestas de Sofia Henao:</h1>
-        
+        <a  className="linkec"href="CandidatosC"  ><img className ="as"src= {Atras}/></a>
         <ul>
         <li className="Zp">- Piscina en el patio <img className ="ss"src= {Like}/> 122 <img className ="dislike"src= {Dislike}/>42 <i class="icon-thumbs-down-alt"> </i></li>
         
@@ -17,7 +17,7 @@ class Zc3 extends React.Component{
         <li className="Zp">- Clases presenciales <img className ="ss"src= {Like}/> 122 <img className ="dislike"src= {Dislike}/>42</li> 
         <br/>
         <li className="Zp">- No sé que poner <img className ="ss"src= {Like}/> 122 <img className ="dislike"src= {Dislike}/>42 </li>
-       <a  className="linkec"href="CandidatosC"  ><img className ="as"src= {Atras}/></a>
+     
         </ul>
         
       </main>

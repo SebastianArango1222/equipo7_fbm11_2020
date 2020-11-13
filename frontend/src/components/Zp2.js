@@ -8,6 +8,7 @@ class Zp2 extends React.Component {
         return (
 
             <main role="main" className="inner cover">
+                   <a  className="linkec"href="CandidatosP"  ><img className ="as"src= {Atras}/></a>
                 <h1 className="awa">Propuestas de Sebastián Arango:</h1>
 
                 <ul>
@@ -22,7 +23,7 @@ class Zp2 extends React.Component {
                 <br />
 
 
-                <a className="linkec" href="CandidatosP"  ><img className="as" src={Atras} /></a>
+               
             </main>
 
 
