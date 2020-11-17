@@ -5,6 +5,7 @@ const app = express();
 const candidatos= require('./routes/candidatos');// crud
 const estudiantes = require('./routes/estudiantes');// crud
 const propuestas = require('./routes/propuestas');// crud
+const valoracion = require('./routes/valoracion');// crud
 
 
 //ajustes
@@ -20,6 +21,7 @@ app.use(express.json());
 app.use('/api/candidatos',candidatos);
 app.use('/api/estudiantes',estudiantes);
 app.use('/api/propuestas',propuestas);
+app.use('/api/valoracion',valoracion);
 
 
 app.listen(app.get('port'),()=>{
