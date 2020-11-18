@@ -67,6 +67,11 @@ h4 {
 .Lea{
   font-size: 14px;
 }
+.eed{
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .as{
   color: #0051ff;
   
@@ -312,6 +317,7 @@ color: white;
     }
 .cover-heading{
   color: #009a00;
+  text-align: center;
 }
 .my-0{
   color: black;
