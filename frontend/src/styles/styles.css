@@ -107,7 +107,6 @@ h4 {
 }
 .botonn{
   width: 240px;
-  font-size: 20px;
   text-align: center;
   border-color: chartreuse;
   color : black;
@@ -138,12 +137,7 @@ h4 {
   border-color: chartreuse;
   
 }
-.bt2{
-  height: 32px;
-  font-size: 16px;
-  width: 240px;
-  border-color: chartreuse;
-}
+
 .hed{
   padding-left: 10px;
   padding-right: 10px;
@@ -157,6 +151,11 @@ h4 {
  text-decoration: none;
 
 }
+.hed:active{
+  color: orange;
+  text-decoration: none;
+ 
+ }
 .as{
 
   height: 40px;
@@ -306,6 +305,11 @@ color: white;
   background: orange;
   text-decoration: none;
   }
+  .btn.btn-outline-primary:active{
+   
+    background: orange;
+    text-decoration: none;
+    }
 .cover-heading{
   color: #009a00;
 }
@@ -315,10 +319,12 @@ color: white;
 h5.my-0.mr-md-auto.font-weight-normal{
   color: white;
   font-size: 18px;
+
 }
 .my-0.font-weight-normal{
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 .logofx{
   width: 120px;
@@ -329,6 +335,7 @@ h5.my-0.mr-md-auto.font-weight-normal{
 }
 form.a{
   color: black;
+ 
 }
 .a{
   
@@ -349,3 +356,46 @@ form.a{
 h1.boton2{
   color:  #009a00;
 }
+input#inputEmail.botonn{
+  margin: 10px;
+  outline: none;
+}
+button.boton3{
+  margin: 6px;
+  font-size: 16px;
+  outline: none;
+}
+input#Nombre.bt{
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+input#inputEmail.bt{
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+input#inputPassword.bt2{
+  margin: 5px;
+  width: 260px;
+  text-align: center;
+  outline: none;
+}
+.bt{
+  border-radius: 20px;
+  border-color: chartreuse;
+  outline: none;
+}
+
+  .bt2{
+    height: 32px;
+    font-size: 16px;
+    width: 240px;
+    border-color: chartreuse; 
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  input#inputPassword.botonn{
+    
+    outline: none;
+  }
