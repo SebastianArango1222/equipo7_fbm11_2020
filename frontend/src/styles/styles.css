@@ -71,6 +71,8 @@ h4 {
   margin-top: 30px;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-justify: auto;
 }
 .as{
   color: #0051ff;
