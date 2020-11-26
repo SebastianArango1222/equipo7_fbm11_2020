@@ -13,14 +13,14 @@ mysqlConnection.query('SELECT * FROM Propuestas',(err,rows,fiels)=>{
     }
 })
 })
-router.post('/nueva-propuesta',(req,res)=>{
-    const {id,Cargo,Propuesta}=req.body;
+router.post('/nueva-propuestas',(req,res)=>{
+    const {id,Cargo,propuestas}=req.body;
     
-    let propuesta =[id,Cargo,Propuesta];
+    let propuestas =[id,Cargo,Propuesta];
     
-    let nuevaPropuesta =`INSERT INTO Propuestas(id,Cargo,Propuesta)
+    let nuevaPropuestas =`INSERT INTO Propuestas(id,Cargo,Propuesta)
     VALUES(?,?,?,?,?)`;
-    mysqlConnection.query(nuevaPropuesta,propuesta,(err,results,fields)=>{
+    mysqlConnection.query(nuevaPropuesta,propuestas,(err,results,fields)=>{
     if(err){
        return console.error(err.message());
     }else{
