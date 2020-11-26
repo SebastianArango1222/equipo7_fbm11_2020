@@ -19,7 +19,7 @@ router.post('/nueva-propuesta',(req,res)=>{
     let propuesta =[id,Cargo,Propuesta];
     
     let nuevaPropuesta =`INSERT INTO Propuestas(id,Cargo,Propuesta)
-    VALUES(?,?,?)`;
+    VALUES(?,?,?,?,?)`;
     mysqlConnection.query(nuevaPropuesta,propuesta,(err,results,fields)=>{
     if(err){
        return console.error(err.message());

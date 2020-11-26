@@ -19,7 +19,7 @@ router.post('/nueva-valoracion',(req,res)=>{
     let valoracion =[id,Cargo,Propuesta,conteo];
     
     let nuevaValoracion =`INSERT INTO valoracion(id,Cargo,Propuesta,conteo)
-    VALUES(?,?,?)`;
+    VALUES(?,?,?,?,?)`;
     mysqlConnection.query(nuevaValoracion,valoracion,(err,results,fields)=>{
     if(err){
        return console.error(err.message());

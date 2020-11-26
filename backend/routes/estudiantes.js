@@ -19,7 +19,7 @@ router.post('/nuevo-estudiante',(req,res)=>{
     let estudiantes =[id,nombre,apellido,doc,identidad,grado];
     
     let nuevoEstudiante =`INSERT INTO estudiantes(id,nombre,apellido,doc,identidad,grado)
-    VALUES(?,?,?)`;
+    VALUES(?,?,?,?,?)`;
     mysqlConnection.query(nuevoEstudiante,estudiantes,(err,results,fields)=>{
     if(err){
        return console.error(err.message());
