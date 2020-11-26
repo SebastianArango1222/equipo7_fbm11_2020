@@ -67,8 +67,14 @@ h4 {
 .Lea{
   font-size: 14px;
 }
+.eed{
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .as{
   color: #0051ff;
+  
 }
 .Zp{
   text-align: center;
@@ -101,14 +107,14 @@ h4 {
 .h1a{
   font-size: arial;
   font-size: 40px;
-  
+  color: #009a00;
+  text-align: center;
 }
 .botonn{
   width: 240px;
-  font-size: 20px;
   text-align: center;
   border-color: chartreuse;
-  color: black;
+  color : black;
   height: 32px;
   border-radius: 20px;
 
@@ -116,9 +122,8 @@ h4 {
   
 }
 .boton2{
-  font-size: 60px;
   text-align: center;
-  padding-left: 32px;
+
   
 }
 
@@ -129,6 +134,7 @@ h4 {
   border-color: chartreuse;
   font-size: 20px;
   border-radius: 40px;
+  
 }
 .bt{
   width: 260px;
@@ -136,12 +142,7 @@ h4 {
   border-color: chartreuse;
   
 }
-.bt2{
-  height: 32px;
-  font-size: 16px;
-  width: 240px;
-  border-color: chartreuse;
-}
+
 .hed{
   padding-left: 10px;
   padding-right: 10px;
@@ -150,14 +151,28 @@ h4 {
   
   
 }
+.hed:hover{
+ color: orange;
+ text-decoration: none;
+
+}
+.hed:active{
+  color: orange;
+  text-decoration: none;
+ 
+ }
 .as{
 
   height: 40px;
   
 }
-.adm{
- font-size: 20px;
-  padding: 0px;
+a.adm{
+ font-size: 16px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  color: black;
 
 }
 
@@ -275,12 +290,14 @@ header label:hover{
 .p-3 {
   padding: 1rem!important;
   background-color: #009a00;
+  font-family: "Comfortaa", cursive;
 }
 .my-0{
   color: white;
 }
 .hed{
   color: white;
+    font-family: "Arial";
 }
 .btn.btn-outline-primary{
 padding: 6px 12px;
@@ -288,8 +305,19 @@ border-color: orange;
 color: white;
 
 }
+.btn.btn-outline-primary:hover{
+  color: white;
+  background: orange;
+  text-decoration: none;
+  }
+  .btn.btn-outline-primary:active{
+   
+    background: orange;
+    text-decoration: none;
+    }
 .cover-heading{
   color: #009a00;
+  text-align: center;
 }
 .my-0{
   color: black;
@@ -297,4 +325,83 @@ color: white;
 h5.my-0.mr-md-auto.font-weight-normal{
   color: white;
   font-size: 18px;
+
 }
+.my-0.font-weight-normal{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.logofx{
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form.a{
+  color: black;
+ 
+}
+.a{
+  
+  color: black!important;
+}
+.colorin{
+  color: black;
+}
+.colorin:hover{
+  color: orange;
+  text-decoration: none;
+  
+}
+.adm:hover{
+  color: orange;
+  text-decoration: none;
+}
+h1.boton2{
+  color:  #009a00;
+}
+input#inputEmail.botonn{
+  margin: 10px;
+  outline: none;
+}
+button.boton3{
+  margin: 6px;
+  font-size: 16px;
+  outline: none;
+}
+input#Nombre.bt{
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+input#inputEmail.bt{
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+input#inputPassword.bt2{
+  margin: 5px;
+  width: 260px;
+  text-align: center;
+  outline: none;
+}
+.bt{
+  border-radius: 20px;
+  border-color: chartreuse;
+  outline: none;
+}
+
+  .bt2{
+    height: 32px;
+    font-size: 16px;
+    width: 240px;
+    border-color: chartreuse; 
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  input#inputPassword.botonn{
+    
+    outline: none;
+  }
